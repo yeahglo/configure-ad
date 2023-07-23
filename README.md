@@ -1,5 +1,5 @@
 <p align="center">
-
+<img width="566" alt="Screen Shot 2023-07-23 at 1 03 25 AM" src="https://github.com/yeahglo/configure-ad/assets/91516100/c2da16b9-710f-490a-bde8-c91773522438">
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
@@ -174,18 +174,23 @@ Using Powershell ISE, we'll create 10,000 users using a script. Domain Users alr
 
 <br/>
 
-<!--
 **New User Login**
 
 <p>
-
+Now that 10,000 users have been created, we'll grab a random user from OU _EMPLOYEES and test their credentials to log into Client-1.
 </p>
 
 <img width="832" alt="Screen Shot 2023-07-20 at 9 45 53 AM" src="https://github.com/yeahglo/configure-ad/assets/91516100/8ed2c8bf-7bdb-45db-b9ff-b4f7d5a810d2">
 
+**_We'll grab a random user's credentials from the list in EMPLOYEES OU._**
+
 <img width="634" alt="Screen Shot 2023-07-20 at 9 46 57 AM" src="https://github.com/yeahglo/configure-ad/assets/91516100/0b633095-5091-4b77-a770-3bd8a951a358">
+
+**_Using the domain credentials for the user, we'll log in with RDP._**
 
 <img width="993" alt="Screen Shot 2023-07-20 at 9 47 49 AM" src="https://github.com/yeahglo/configure-ad/assets/91516100/45be4f18-2f7e-4e24-bbb5-09853b0d395c">
 
--->
+**_In the command line, we'll confirm that the user we chose is logged in._**
+
+
 
